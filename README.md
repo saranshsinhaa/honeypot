@@ -1,19 +1,12 @@
 <div align="center"><h1><strong>SSH Honeypot Simulation</strong></h1></div>
-<div align="center"><h3><strong>18CSC302J - Computer Networks Mini Project</strong></h3></div>
 <br>
 <div align="center"><img style="margin: auto; padding: 0px 5px 0px 5px;" src="https://img.shields.io/badge/Made%20With%20Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen"><img style="margin: auto; padding: 0px 5px 0px 5px;" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"><img style="margin: auto; padding: 0px 5px 0px 5px;" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"><img style="margin: auto; padding: 0px 5px 0px 5px;" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"><img style="margin: auto; padding: 0px 5px 0px 5px;" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></div>
 
 ---
 
-## **Team Members**
-
-- **RA1911030010014 - Gita Alekhya Paul**
-- **RA1911030010025 - Ratanshi Puri**
-- **RA1911030010030 - Nitish Chaturvedi**
-
 ## **Abstract**
 
-We have implemented an SSH honeypot in this project, which will act as a proxy server for any central server and used to track the behavior of attacks that are done on any main servers. The function of a honeypot is to represent itself on the internet as a potential target for attackers (usually a server or other high-value asset) and to gather information and notify defenders of any attempts to access the honeypot by unauthorized users.
+A SSH Honeypot server acts as a proxy server for any central server and used to track the behavior of attacks that are done on any main servers. The function of a honeypot is to represent itself on the internet as a potential target for attackers (usually a server or other high-value asset) and to gather information and notify defenders of any attempts to access the honeypot by unauthorized users.
 
 ## **Introduction**
 
@@ -40,12 +33,6 @@ Honeypots may also be put outside the external firewall facing the internet to d
 ### **Block Diagram**
 
 ![Block Diagram](assets/Block-Diagram.png)
-
-### **Demo Video**
-
-<div align="center">
-  <video width="700" alt="Demo Video" loop src="https://user-images.githubusercontent.com/54375111/141642253-db21b491-25cf-47ff-afa1-3fb655270e99.mp4" autoplay/>
-</div>
 
 ### **Screenshots**
 
@@ -129,56 +116,5 @@ The project uses Docker to containerize and package the application for easier d
     ```
 
   - The logs are available in the **`ssh-honeypot.log`** file in the project root.
-
-<div align="center"><h2><strong>Contributors 🤝</strong></h2></div>
-
-<table align="center">
-<tr align="center">
-<td>
-
-**Gita Alekhya Paul**
-
-<p align="center">
-<img src = "https://github.com/gitaalekhyapaul.png"  height="120" alt="Gita Alekhya Paul">
-</p>
-<p align="center">
-<a href = "https://github.com/gitaalekhyapaul"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/gitaalekhyapaul/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-<td>
-
-**Ratanshi Puri**
-
-<p align="center">
-<img src = "https://github.com/Ratanshi.png"  height="120" alt="Ratanshi Puri">
-</p>
-<p align="center">
-<a href = "https://github.com/Ratanshi"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/ratanshi/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-<td>
-
-**Nitish Chaturvedi**
-
-<p align="center">
-<img src = "https://github.com/waterupto.png"  height="120" alt="Nitish Chaturvedi">
-</p>
-<p align="center">
-<a href = "https://github.com/waterupto"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/waterupto/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-</table>
 
 ---
